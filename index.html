@@ -1,0 +1,31 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: zml
+ * @Date: 2020-11-23 13:21:38
+ * @LastEditors: zml
+ * @LastEditTime: 2020-11-23 14:09:58
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <input type="text" l-model="msg">
+        <p>{{msg}}</p>
+    </div>
+    <script>
+        var vm = new Vue({
+            el:'#app',
+            data: {
+                msg:'好好学习，天天向上'
+            }
+        })
+    </script>
+</body>
+</html>
